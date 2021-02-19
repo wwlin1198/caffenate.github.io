@@ -5,7 +5,49 @@
   <link href="stylesheet.css" type="text/css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
+    h1 {
+      font-family: 'Big Shoulders Inline Display', cursive;
+      font-size: 70px;
+      text-align: center;
+      padding: 2% 0%;
+      margin: 10px 25px;
+    }
+
+    h2{
+      font-family: 'Montserrat, Helvetica, sans-serif';
+      font-size: 25px;
+      font-weight: 700;
+      text-align: left;
+      color: #000000;
+      padding-top: 5%;
+      
+    }
+    .mission-block {
+      display: inline-block;
+      background-color: rgba(199, 198, 198, 0.35);
+      color:#000000;
+      font-weight: bold;
+      width: 800px;
+      height: 300px;
+      padding: 1px 20px 60px 25px;
+      position: absolute;
+      bottom: 20%;
+      right: 55%;
+      transition: transform 0.5s;
+      z-index: 2;
+    }
+    .coffee-bean img{
+      width: 50px;
+      height: 50px;
+      padding-top: 1%;
+      padding-left: 45%;      
+      
+    }
+
+
+
     
   </style>
 </head>
@@ -14,15 +56,40 @@
     <img src="images/logo.png" alt="Caffenate Logo" class="logo"/>
       <nav>
         <ul>
-          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html"><i class="fa fa-fw fa-home"></i>HOME</a></li>
           <li><a href="products.html">PRODUCTS</a></li>
           <li><a href="events.html">EVENTS</a></li>
           <li><a href="about.html" class="active">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
-      </nav> 
-  </div> 
-  
+      </nav>
+      <div class="social-links">
+        <img src="images/facebook.png">
+        <br><br>
+        <img src="images/twitter.png">
+        <br><br>
+        <img src="images/instagram.png">
+      </div> 
+  </div>
+  <div class="main-about">
+      <div class="mission-block">
+        <h2><span style="color: #493001;">Since 2010,</span> 
+          we offer a range of caffeinated products in various 
+          physical locations at highly discounted costs for students. 
+          One of our main services is providing weekly coffee, tea and
+          energy drink events at a range of university campuses 
+          across the Boston area. We also hold special events all 
+          year-round especially accommodating exam seasons.</h2>
+          <p style="font-size: 16px; padding-top: 40px;">
+          We are the only and most popular option for quality caffeinated 
+          products on college campuses. Our goal to is be able to help college 
+          students around the US stay awake and be more productive in 
+          their everyday learning.</p>
+          <div class="coffee-bean">
+            <img src="images/coffee-bean.png">
+          </div>
+      </div>
+  </div>
   
   
   

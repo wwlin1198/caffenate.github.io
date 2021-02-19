@@ -48,6 +48,7 @@ nav ul li a {
   font-weight: bold;
   color: white;
   font-size: 15px;
+  
 }
 
 .active, li a:hover {
@@ -56,7 +57,28 @@ nav ul li a {
 
 .social-links img{
   width: 28px;
-  margin: 10px;
+  margin: 5px;
   cursor: pointer;
 
 }
+
+.main-about{
+  background-image: url(images/coffee_table2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.mid-body{
+  background: #f5f4f2;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  min-height: 30vh;
+  width: 35%;
+  border-radius: 2rem;
+  z-index: 6;
+}
+

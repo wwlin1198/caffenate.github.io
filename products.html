@@ -5,7 +5,75 @@
   <link href="stylesheet.css" type="text/css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
+    .main {
+      background-image: linear-gradient(#ebd8bc, #ebe8e8);
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    }
+    h1{
+      font-family: 'Big Shoulders Inline Display', cursive;
+      font-size: 70px;
+      text-align: center;
+    }
+    .coffee-cup img{
+      width: 30%;
+      height: 38%;
+      position: absolute;
+      top: 30%;
+      left: 0%;
+    }
+    .matcha-latte img{
+      width: 20%;
+      height: 45%;
+      position: absolute;
+      left: 60%;
+      top: 70%;
+
+    }
+    .box1{
+      display: inline-block;
+      background-color: rgba(199, 198, 198, 0);
+      color:#000000;
+      font-weight: bold;
+      width: 500px;
+      height: 300px;
+      padding: 1px 20px 60px 25px;
+      position: absolute;
+      bottom: 30%;
+      right: 40%;
+      transition: transform 0.5s;
+      z-index: 2;
+      text-align: left;
+      font-size: 30px;
+    }
+    .box2{
+      display: inline-block;
+      background-color: rgba(199, 198, 198, 0);
+      color:#000000;
+      font-weight: bold;
+      width: 500px;
+      height: 300px;
+      padding: 1px 20px 60px 25px;
+      position: absolute;
+      top: 80%;
+      right: 40%;
+      transition: transform 0.5s;
+      z-index: 2;
+      text-align: left;
+      font-size: 30px;
+    }
+
+    .coffee-bean img{
+      width: 50px;
+      height: 50px;
+      padding-top: 1%;
+      padding-left: 45%;  
+      position: absolute;
+    }
+
     
   </style>
 </head>
@@ -21,11 +89,36 @@
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav> 
+      <div class="social-links">
+        <img src="images/facebook.png">
+        <br><br>
+        <img src="images/twitter.png">
+        <br><br>
+        <img src="images/instagram.png">
+      </div>
   </div> 
-  
-  
-  
-  
+  <div class="main">
+    <div class="coffee-cup">
+      <image src="images/coffee-cup.png"></image>
+    </div>
+    <div class="matcha-latte">
+      <image src="images/matcha-latte.png"></image>
+    </div>
+    <div class="box1">
+      <h2 style="font-family:Helvetica Neue;">Try Our Signature Coffees!</h2>
+      <p style="font-size: 15px; padding-top: 5%;">Made of organic and certified fair trade coffee beans, our latte's will boost your day by 500%!</p>
+    </div>
+    <div class="box2">
+      <h2 style="font-family:Helvetica Neue; font-size: 15px; color: #b1700e;"> New!</h2> 
+      <h2 style="font-family:Helvetica Neue;"> Matcha Latte</h2>
+      <p style="font-size: 15px; padding-top:5%;">Imported from Japan, our matcha will surely keep you jittery with glee!</p>
+    </div>
+    <div class="coffee-bean">
+      <image src="images/coffee-bean.png"></image>
+    </div>
+
+  </div>
+    
   
   <div class="footer">
     <img src="images/logo.png" alt="Caffenate Logo" class="logo"/>
