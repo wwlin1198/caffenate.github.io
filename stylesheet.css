@@ -21,7 +21,7 @@
   height: 250px;
   color: white;
   text-align: center;
-  font-size: 13px;
+  font-size: 13%;
   position: relative;
 
 }
@@ -29,7 +29,7 @@ p.copyright {
   position: absolute;
   width: 100%;
   color: #fff;
-  line-height: 40px;
+  line-height: 60px;
   font-size: 0.7em;
   text-align: center;
   bottom:0;
